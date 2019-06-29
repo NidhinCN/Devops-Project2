@@ -15,7 +15,7 @@ public class webtest {
 
                 WebDriver driver = new ChromeDriver(chromeOptions);
 
-                driver.get("http://3.86.85.161:32770");
+                driver.get("http://http://3.86.252.102:3200");
                 driver.findElement(By.id("About Us")).click();
 
                 Thread.sleep(1000);
